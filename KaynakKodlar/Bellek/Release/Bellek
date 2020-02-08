@@ -1,0 +1,5 @@
+#pragma once
+#ifndef BELLEK_H
+#include "bellek.h"
+#endif
+#pragma comment ("lib","Bellek.lib")

@@ -1,0 +1,33 @@
+﻿Build started 24.07.2013 02:08:51.
+     1>Project "C:\Users\tosh\Desktop\CKutuphane\KaynakKodlar\HazirFonksiyonlar\HazirFonksiyonlar.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\HazirFonksiyonlar.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\HazirFonksiyonlar.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D "_LIB" /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt HazirFonksiyonlar.cpp
+         HazirFonksiyonlar.cpp
+     1>c:\users\tosh\desktop\ckutuphane\kaynakkodlar\hazirfonksiyonlar\hazirfonksiyonlar.h(41): warning C4091: 'typedef ' : ignored on left of 'MetinBilgileri' when no variable is declared
+     1>c:\users\tosh\desktop\ckutuphane\kaynakkodlar\hazirfonksiyonlar\hazirfonksiyonlar.cpp(9): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(451) : see declaration of '_itoa'
+     1>c:\users\tosh\desktop\ckutuphane\kaynakkodlar\hazirfonksiyonlar\hazirfonksiyonlar.cpp(16): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(451) : see declaration of '_itoa'
+     1>c:\users\tosh\desktop\ckutuphane\kaynakkodlar\hazirfonksiyonlar\hazirfonksiyonlar.cpp(240): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(451) : see declaration of '_itoa'
+     1>c:\users\tosh\desktop\ckutuphane\kaynakkodlar\hazirfonksiyonlar\hazirfonksiyonlar.cpp(249): warning C4996: '_ltoa': This function or variable may be unsafe. Consider using _ltoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(487) : see declaration of '_ltoa'
+     1>c:\users\tosh\desktop\ckutuphane\kaynakkodlar\hazirfonksiyonlar\hazirfonksiyonlar.cpp(301): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\tosh\desktop\ckutuphane\kaynakkodlar\hazirfonksiyonlar\hazirfonksiyonlar.cpp(307): warning C4172: returning address of local variable or temporary
+     1>c:\users\tosh\desktop\ckutuphane\kaynakkodlar\hazirfonksiyonlar\hazirfonksiyonlar.cpp(396): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>c:\users\tosh\desktop\ckutuphane\kaynakkodlar\hazirfonksiyonlar\hazirfonksiyonlar.cpp(407): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'int', possible loss of data
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\tosh\Desktop\CKutuphane\KaynakKodlar\HazirFonksiyonlar\Debug\HazirFonksiyonlar.lib" /NOLOGO Debug\HazirFonksiyonlar.obj
+         HazirFonksiyonlar.vcxproj -> C:\Users\tosh\Desktop\CKutuphane\KaynakKodlar\HazirFonksiyonlar\Debug\HazirFonksiyonlar.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\HazirFonksiyonlar.unsuccessfulbuild".
+         Touching "Debug\HazirFonksiyonlar.lastbuildstate".
+     1>Done Building Project "C:\Users\tosh\Desktop\CKutuphane\KaynakKodlar\HazirFonksiyonlar\HazirFonksiyonlar.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.66

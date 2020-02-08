@@ -1,0 +1,8 @@
+
+Kurulum :
+
+1.)Dosyanin compile edilgili klasorde ki(Release-Debug) lib dosyasý Visual Studio\VC\lib klasorune atilmali.
+
+2.)include klasorundeki HazirFonksiyonlar headeri Visual studio\VC\include klasorune atilmali
+
+Not: Bu header projenin orjinal headeri ile ayni deðildir.

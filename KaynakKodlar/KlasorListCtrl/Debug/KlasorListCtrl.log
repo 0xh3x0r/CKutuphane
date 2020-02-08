@@ -1,0 +1,31 @@
+﻿Build started 01.07.2013 15:35:03.
+     1>Project "C:\Users\tosh\Desktop\CKutuphane\KaynakKodlar\KlasorListCtrl\KlasorListCtrl.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\KlasorListCtrl.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\KlasorListCtrl.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D "_LIB" /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt KlasorListCtrl.cpp
+         KlasorListCtrl.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\tarih.h(62): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\tarih.h(68): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\tarih.h(72): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\tarih.h(80): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\tarih.h(87): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\tosh\Desktop\CKutuphane\KaynakKodlar\KlasorListCtrl\Debug\KlasorListCtrl.lib" /NOLOGO Debug\KlasorListCtrl.obj
+         KlasorListCtrl.vcxproj -> C:\Users\tosh\Desktop\CKutuphane\KaynakKodlar\KlasorListCtrl\Debug\KlasorListCtrl.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\KlasorListCtrl.unsuccessfulbuild".
+         Touching "Debug\KlasorListCtrl.lastbuildstate".
+     1>Done Building Project "C:\Users\tosh\Desktop\CKutuphane\KaynakKodlar\KlasorListCtrl\KlasorListCtrl.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.96

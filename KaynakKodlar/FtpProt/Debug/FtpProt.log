@@ -1,0 +1,23 @@
+﻿Build started 26.06.2013 18:20:05.
+     1>Project "c:\Users\tosh\documents\visual studio 2012\Projects\FtpProt\FtpProt.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\FtpProt.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D "_LIB" /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt FtpProt.cpp
+         FtpProt.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\thread.h(75): warning C4229: anachronism used : modifiers on data are ignored
+     1>c:\users\tosh\documents\visual studio 2012\projects\ftpprot\ftpprot.h(247): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>c:\users\tosh\documents\visual studio 2012\projects\ftpprot\ftpprot.h(251): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"c:\users\tosh\documents\visual studio 2012\Projects\FtpProt\Debug\FtpProt.lib" /NOLOGO Debug\FtpProt.obj
+         FtpProt.vcxproj -> c:\users\tosh\documents\visual studio 2012\Projects\FtpProt\Debug\FtpProt.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\FtpProt.unsuccessfulbuild".
+         Touching "Debug\FtpProt.lastbuildstate".
+     1>Done Building Project "c:\Users\tosh\documents\visual studio 2012\Projects\FtpProt\FtpProt.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.51

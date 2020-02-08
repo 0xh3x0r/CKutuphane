@@ -1,0 +1,22 @@
+﻿Build started 09.07.2013 22:45:46.
+     1>Project "c:\Users\tosh\documents\visual studio 2012\Projects\DinamikDlg\DinamikDlg.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\DinamikDlg.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D "_LIB" /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\DinamikDlg.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D "_LIB" /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\DinamikDlg.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DinamikDlg.cpp
+         DinamikDlg.cpp
+     1>c:\users\tosh\documents\visual studio 2012\projects\dinamikdlg\dinamikdlg.cpp(88): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"c:\users\tosh\documents\visual studio 2012\Projects\DinamikDlg\Debug\DinamikDlg.lib" /NOLOGO Debug\DinamikDlg.obj
+         Debug\stdafx.obj
+         DinamikDlg.vcxproj -> c:\users\tosh\documents\visual studio 2012\Projects\DinamikDlg\Debug\DinamikDlg.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\DinamikDlg.unsuccessfulbuild".
+         Touching "Debug\DinamikDlg.lastbuildstate".
+     1>Done Building Project "c:\Users\tosh\documents\visual studio 2012\Projects\DinamikDlg\DinamikDlg.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.91
