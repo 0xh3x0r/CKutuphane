@@ -17,6 +17,12 @@
 #ifndef _VECTOR_
 #include <vector>
 #endif
+
+
+
+// char ch = blabla[i]; // bu operatorde bir sýkýntý var!
+// bazý noktalarda null terminator olmuyor 
+
 using namespace std;
 class Metin : public string
 {
@@ -28,6 +34,25 @@ public:
 	Metin(string strveri) :string(strveri){}
 	Metin(char* veri) :string(veri) { }
 	Metin() :string() {};
+
+	Metin(vector<char> & charArray) : string()  {
+		Metin metin;
+
+		for (size_t i = 0; i < charArray.size(); i++)
+		{
+			metin += charArray[i];
+		}
+		*this = metin;
+
+	}
+
+	Metin(char chr) : string() {
+		Metin metin;
+		metin += chr;
+		*this = metin;
+	}
+
+
 public:
 	operator string() {
 		return *this;
@@ -258,7 +283,9 @@ public:
 		{
 			return arrMetin;
 		}
-		basIndex = kelimeIndex + wordsize;		goto Tekrar;
+		basIndex = kelimeIndex + wordsize;
+		goto Tekrar;
+
 
 		}
 
@@ -266,6 +293,17 @@ public:
 	}
 
 
+	// returns lowercase version of current metin
+	Metin lowercase()
+	{
+		string ret = "";
+		for (size_t i = 0; i < this->size(); i++)
+		{
+			ret += tolower(this->at(i));
+		}
+	 
+		return ret;
+	}
 
 
 };
